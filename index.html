@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COMP-6062 Final Practical Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app" class="container">
+    <header>
+        <h1>Mohit Rayu - 1156056</h1>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="fact">Random Fact</h2>
+                <p>{{ randomFact }}</p>
+                <button @click="getRandomFact" class="btn btn-primary">New Fact</button>
+            </div>
+            
+            <div class="col-md-4">
+                <h2 class="weather">Current Weather</h2>
+                <p>City: {{ weather.city }}</p>
+                <p>Temperature: {{ weather.temperature }}</p>
+                <p>Wind: {{ weather.wind }}</p>
+                <p>Description: {{ weather.description }}</p>
+                <input type="text" v-model="city" placeholder="Enter city">
+                <button @click="getWeather" class="btn btn-primary">Get Weather</button>
+            </div>
+
+            <div class="col-md-4">
+                <h2 class="dict">Dictionary</h2>
+                <p>Word: {{ dictionary.word }}</p>
+                <p>Phonetic: {{ dictionary.phonetic }}</p>
+                <p>Part of Speech: {{ dictionary.partOfSpeech }}</p>
+                <p>Definition: {{ dictionary.definition }}</p>
+                <input type="text" v-model="word" placeholder="Enter word">
+                <button @click="getDefinition" class="btn btn-primary">Define</button>
+            </div>
+        </div>
+    </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="scripts/app.js"></script>
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>

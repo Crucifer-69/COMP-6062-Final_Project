@@ -1,0 +1,83 @@
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.fact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.weather{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.dict{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px black; 
+}
+.btn:hover, .btn:focus, .btn:active {
+    background-color: white;
+    color: black;
+}
+
+.col-md-4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+@media only screen and (min-width: 780px){
+    .col-md-4{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: purple;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+    }
+}
+
