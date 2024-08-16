@@ -24,7 +24,7 @@
                 <p>Temperature: {{ weather.temperature }}</p>
                 <p>Wind: {{ weather.wind }}</p>
                 <p>Description: {{ weather.description }}</p>
-                <input type="text" v-model="city" placeholder="Enter city">
+                <input type="text" required v-model="city" placeholder="Enter city">
                 <button @click="getWeather" class="btn btn-primary">Get Weather</button>
             </div>
 
@@ -34,7 +34,7 @@
                 <p>Phonetic: {{ dictionary.phonetic }}</p>
                 <p>Part of Speech: {{ dictionary.partOfSpeech }}</p>
                 <p>Definition: {{ dictionary.definition }}</p>
-                <input type="text" v-model="word" placeholder="Enter word">
+                <input type="text" required v-model="word" placeholder="Enter word">
                 <button @click="getDefinition" class="btn btn-primary">Define</button>
             </div>
         </div>
